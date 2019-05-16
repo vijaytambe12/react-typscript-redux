@@ -33,7 +33,7 @@ class Header extends React.Component<RouteComponentProps,IState> {
                         <form onSubmit={this.onSubmit}>
                             <input
                                 type="text"
-                                placeholder="What are you looking to rent?"
+                                placeholder="What are you looking?"
                                 value={this.state.searchText}
                                 onChange={this.handleSearchTextChange}/>
                         </form>
